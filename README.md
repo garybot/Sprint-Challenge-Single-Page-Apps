@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+Client-side routing decreases load times when navigating within an application, reduces server load and network calls.  
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
