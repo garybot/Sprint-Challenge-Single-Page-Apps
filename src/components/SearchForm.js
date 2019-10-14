@@ -5,7 +5,7 @@ import * as Yup from "yup";
 function SearchForm(props, {values}) {
   return (
     <Form className="search-form">
-      <Field type="text" name="character" placeholder="Character" />
+      <Field type="text" name="character" placeholder="Search by name" />
       <button type="submit">search</button>
       <button type="reset" onClick={() => {props.setCharacterToFind('')}}>reset</button>
     </Form>

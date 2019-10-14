@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Route} from "react-router-dom";
+import React, { useState } from "react";
+import { Route } from "react-router-dom";
 import Header from "./components/Header.js";
 import WelcomePage from "./components/WelcomePage.js";
 import SearchForm from "./components/SearchForm.js";
@@ -12,8 +12,8 @@ export default function App() {
     <main>
       <Header />
       <Route exact path="/"><WelcomePage /></Route>
-      <Route path=""><SearchForm setCharacterToFind={setCharacterToFind}/></Route>
-      <Route exact path="/characters"><CharacterList characterToFind={characterToFind}/></Route>
+      <Route path="/characters"><SearchForm setCharacterToFind={setCharacterToFind}/></Route>
+      <Route path="/characters"><CharacterList characterToFind={characterToFind}/></Route>
     </main>
   );
 }
